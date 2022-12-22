@@ -1,0 +1,81 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+/*
+@font-face {
+ font-family: vollkorn;
+  src: url(./assets/Vollkorn-Bold.ttf);
+}
+*/
+canvas {
+  display: block;
+}
+
+.gameTitle{
+  width: 75%;
+  height: 80px;
+}
+
+.gameTitleAfterEffect{
+  width: 25%;
+  height: 80px;
+}
+
+.greeting{
+  font-size: 40px;
+  color: white;
+  font-family: vollkorn;
+  text-align: center;
+}
+
+.customInput {
+  width:250px;
+  height:60px;
+  background-image: url('./assets/btnNome.png');
+  background-size: cover;
+  padding: 5px;
+  background-color:transparent;
+  font-size: 20px;
+  outline:none;
+  color:white;
+  font-family: vollkorn;
+  text-align: center;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 0.5; /* Firefox */
+}
+
+.playButton {
+  width:350px;
+  height:180px;
+  background-image: url('./assets/btnStart.png');
+  background-color:transparent;
+  background-size: cover;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+  border-color: transparent;
+}
+
+
+.charbtn {
+  width:110px;
+  height:100px;
+  background-image: url('./assets/btnPersonagem.png');
+  background-color:transparent;
+  background-size: cover;
+  border-radius: 30px;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+
